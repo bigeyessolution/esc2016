@@ -104,5 +104,4 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="FadeSplashScreenDuration" value="500"/>
     <preference name="ShowSplashScreenSpinner" value="false"/>
-    <preference name="SplashScreen" value="screen"/>
 </widget>
