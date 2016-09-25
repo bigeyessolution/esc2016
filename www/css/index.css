@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 }
 
 .ui-body img {
-	width: 45%;
+	width: 56%;
 	height: auto;
 }
 
@@ -292,9 +292,9 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	z-index: 0 !important;
 }
 
-.mapa_sala{
-	width: 170%;
-	height: auto;
+.mapa_sala img{
+	width: 90% !important;
+	height: auto !important;
 	text-align: left !important;
 	margin-top: 1rem !important;
 	border-bottom: none !important;
