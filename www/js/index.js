@@ -30,28 +30,25 @@ $( document ).on( "pagecontainerbeforechange", function(event, ui) {
 $( document ).on( "pagecontainerchange", function(event, ui) {
 	var toPage = $(ui.toPage).attr('id');
 	var prevPage = $(ui.prevPage).attr('id');
-	
+
 	if (toPage === 'mapa') criarMapa();
 	if (prevPage === 'mapa') destruirMapa();
-		
+
 	$( 'a[href="#' + toPage + '"]' ).addClass( "ui-btn-active" );
 
-	if (toPage === 'mapa2' || toPage === 'mapa3')
-		$( '.ui-footer a[href="#mapa"]' ).addClass( "ui-btn-active" );
-		
 	$( 'a[href="#' + toPage + '"]' ).addClass( "ui-btn-active" );
-		
+
 	if (toPage == "agenda10") {
 		populateAgenda(toPage);
-		
+
 		getAgenda (toPage);
 	}
-		
+
 });
 
 $(function() {
   $( "[data-role='navbar']" ).navbar();
-  $( "[data-role='header'], [data-role='footer']" ).toolbar();
+  $( "[data-role='header']" ).toolbar();
 });
 
 function showLoading() {
