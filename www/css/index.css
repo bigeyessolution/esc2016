@@ -293,11 +293,14 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 }
 
 .mapa_sala{
-	width: 170%;
-	height: auto;
-	text-align: left !important;
-	margin-top: 1rem !important;
+	text-align: center !important;
 	border-bottom: none !important;
+}
+
+.mapa_sala img{
+    width: 80% !important;
+    height: auto !important;
+    margin-top: 2rem !important;
 }
 
 .ui-be-mapa2 li h4{
@@ -399,7 +402,9 @@ h1, h2, h3, h4, h5, h6, h7, a, p, span{
 	padding: 1rem;
 }
 
-
+.mpanel a{
+    text-decoration-line: none !important;
+}
 
 .btn-mpanel{
 	border-bottom: none !important;
