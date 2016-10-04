@@ -103,7 +103,7 @@ var agenda = false && localStorage.agenda ? JSON.parse(localStorage.agenda) :
 				{"salahora": "17:30", "titulo": "Avaliação de VIV aplicado a equipamentos submarinos com fluidodinâmica computacional", "info": "Bianca Teixeira, ESSS"}
 			]
 		},
-		{"salahora": "17:30", "titulo": "Encerramento", "info": "", "divisao": true}
+		{"salahora": "18:00", "titulo": "Sorteio e Encerramento", "info": "", "divisao": true}
 	]
 
 }
